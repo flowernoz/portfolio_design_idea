@@ -1,0 +1,70 @@
+.section1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 135px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.left {
+    position: relative;
+    width: 658px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left>img{
+    position: absolute;
+    right: 25px;
+    bottom: -35px;
+}
+
+.left>p {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 80px;
+    color: #262626;
+}
+
+.left>span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: rgba(38, 38, 38, 0.6);
+    margin-top: 29px;
+    margin-bottom: 92px;
+}
+
+.left-links {
+    display: flex;
+}
+
+.hire-me{
+    width: 193px;
+    height: 68px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    text-transform: capitalize;
+    color: #262626;
+    padding: 17px 53px;
+}
+
+.hire-me:hover {
+    background: #FE481C;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.right{
+    position: absolute;
+    top: 0;
+    right: 135px;
+}

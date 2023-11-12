@@ -1,0 +1,76 @@
+.section8 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  padding: 110px 135px 111px 506px;
+  height: 560px;
+  background: #262626;
+  gap: 177px;
+}
+
+.section8 > img {
+  position: absolute;
+  top: 115px;
+  left: 49px;
+}
+
+.sec8-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 22px;
+}
+
+.sec8-left > a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 25px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.sec8-left > img {
+  margin-top: 23px;
+}
+
+.sec8-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sec8-right > p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: 1px;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 25px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.sec8-right > input {
+  width: 200px;
+  height: 52px;
+  background: #fe481c;
+  padding: 13px 23px;
+  margin-top: 22px;
+  margin-bottom: 167px;
+}
+
+.sec8-right > input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.sec8-right > span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}

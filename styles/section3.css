@@ -1,0 +1,52 @@
+.section3 {
+    width: 100%;
+    padding: 130px 135px 147px 135px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    gap: 82px;
+    margin-left: 158px;
+    margin-right: 122px;
+    width: 616px;
+}
+
+.about-me>p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #262626;
+}
+
+.about-me>button {
+    width: 257px;
+    height: 68px;
+    border: 1px solid #FE481C;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    text-transform: capitalize;
+    color: #262626;
+    background: none;
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 275px;
+}
+
+.last>span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: rgba(38, 38, 38, 0.6);
+}

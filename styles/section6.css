@@ -1,0 +1,36 @@
+.section6 {
+    position: relative;
+    width: 100%;
+    padding: 118px 134.5px 144px 135px;
+    display: flex;
+    justify-content: space-between;
+    gap: 81px;
+}
+
+.sec6-left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.general-parag {
+    font-style: normal;
+    font-weight: 850;
+    font-size: 25px;
+    line-height: 20px;
+    text-decoration-line: line-through;
+    color: #FE481C;
+    margin-bottom: 50px;
+}
+
+.svg-box {
+    display: flex;
+    gap: 19px;
+    margin-bottom: 26px;
+}
+
+.sec6-right>img {
+    position: absolute;
+    top: 90px;
+    right: 135px;
+}

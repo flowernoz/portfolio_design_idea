@@ -1,0 +1,61 @@
+@import url(./section1.css);
+@import url(./section2.css);
+@import url(./section3.css);
+@import url(./section5.css);
+@import url(./section6.css);
+@import url(./section7.css);
+@import url(./section8.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+}
+
+.wrapper {
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 118px;
+    padding: 29px 135px 132px;
+}
+
+.links {
+    display: flex;
+    gap: 60px;
+    padding-top: 17px;
+    justify-content: space-between;
+}
+
+.links>a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+}
+.links>a:hover{
+    color: #FE481C;
+}
+
+nav>button {
+    width: 193px;
+    height: 68px;
+    background: #262626;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    color: #FFFFFF;
+}

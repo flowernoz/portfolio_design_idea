@@ -1,0 +1,94 @@
+.section2 {
+    width: 100%;
+    height: 287px;
+    background: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 92px 135px 71px 135px;
+    gap: 38px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-right: 40px;
+}
+
+.text>p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.text>span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: rgba(226, 226, 226, 0.6);
+}
+
+.text-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-left: 160px;
+}
+
+.text-3>p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.text-3>a {
+    width: 173px;
+    height: 49px;
+    background: #FFD100;
+    color: black;
+    padding: 13px 33px;
+}
+
+.text-4 {
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+}
+
+.link-4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #FBF6EB;
+    padding-bottom: 13px;
+}
+
+.link-4>a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.link-4>span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
